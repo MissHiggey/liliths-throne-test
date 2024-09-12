@@ -443,6 +443,10 @@ public class GenericActions {
 		String penetrationAreaText = "[npc.cock]";
 		String penetrationAreaPlusText = "[npc.cock+]";
 		
+		if(eggCount == 0) {
+			eggcount + 4;
+		}
+		
 		if(penetratingArea==SexAreaPenetration.CLIT) {
 			penetrationAreaText = "[npc.clit]";
 			penetrationAreaPlusText = "[npc.clit+]";
